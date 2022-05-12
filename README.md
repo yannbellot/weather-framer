@@ -1,5 +1,3 @@
-# weather-framer
+# weather-framer (prototype version)
 
-In development.
-
-A simple Framer OpenWeather component to display the weather : https://openweathermap.org/current
+A simple Framer component to display the weather from OpenWeather API : https://openweathermap.org/current (create your own API key to use).
