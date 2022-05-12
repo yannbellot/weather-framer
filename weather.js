@@ -1,5 +1,3 @@
-// My key : 8bf1b6fd962f6aaeaef61f6e736673a6
-
 import React from "react"
 import useFetch from "react-fetch-hook"
 import { addPropertyControls, ControlType } from "framer"
