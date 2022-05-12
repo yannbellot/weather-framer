@@ -2,4 +2,4 @@
 
 In development.
 
-A simple Framer component to display the weather.
+A simple Framer OpenWeather component to display the weather : https://openweathermap.org/current
