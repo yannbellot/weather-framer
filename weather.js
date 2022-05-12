@@ -38,9 +38,10 @@ export default function Weather(props) {
     let sunsetMinutes = sunset.getMinutes()
     let windSpeed = data.wind.speed
     let windSpeedKm = (windSpeed * 3.6).toFixed(0)
+    const cssStyles = { color: props.textColor }
 
     return (
-        <div style={{ color: "white" }}>
+        <div style={cssStyles}>
             <p>
                 Lat: {data.coord.lat} - Long: {data.coord.lon}
             </p>
@@ -88,5 +89,9 @@ addPropertyControls(Weather, {
         segmentedControlDirection: "horizontal",
         options: ["metric", "imperial"],
         optionTitles: ["Celcius", "Fahrenheit"],
+    },
+    textColor: {
+        type: ControlType.Color,
+        defaultValue: "#fff",
     },
 })
